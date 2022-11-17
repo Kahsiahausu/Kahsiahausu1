@@ -1,0 +1,30 @@
+local Library = loadstring(("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
+	local args = {
+		[1] = "Mommeh Long Legs"
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Xox", "Buy Xox", function()
+	local args = {
+		[1] = "Xox"
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Box Toy SandMan", "Buy Rainbow Gammy", function()
+	local args = {
+		[1] = "Box Toy SandMan"
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy F", "F", function()
+	local args = {
+		[1] = "F"
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)
+end)
